@@ -37,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		06FEFCBB25ABFE1C00622B7A /* Macro_appConfig_shi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro_appConfig_shi.h; sourceTree = "<group>"; };
+		06FEFCBC25ABFE1D00622B7A /* GQHMacro.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GQHMacro.h; sourceTree = "<group>"; };
+		06FEFCBD25ABFE1D00622B7A /* Macro_shi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Macro_shi.h; sourceTree = "<group>"; };
 		0A9E460338C89810585652A1 /* Pods-header_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-header_Example.release.xcconfig"; path = "Target Support Files/Pods-header_Example/Pods-header_Example.release.xcconfig"; sourceTree = "<group>"; };
 		274BBFCDAF7C15131E8BCDAD /* Pods_header_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_header_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29D9A078306ED6DE0EA49DA2 /* Pods-header_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-header_Tests.debug.xcconfig"; path = "Target Support Files/Pods-header_Tests/Pods-header_Tests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -62,11 +65,11 @@
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7C5979495686ECF79C0C63EC /* Pods-header_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-header_Example.debug.xcconfig"; path = "Target Support Files/Pods-header_Example/Pods-header_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		917026CCE00E0DBAE4E3C4FF /* header.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = header.podspec; path = ../header.podspec; sourceTree = "<group>"; };
+		917026CCE00E0DBAE4E3C4FF /* header.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = header.podspec; path = ../header.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		A27681B2A8E8F2BB400C0C08 /* Pods_header_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_header_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BC4767283F3FCB28055AD847 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC4767283F3FCB28055AD847 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CF6F54B402F05143D812D27F /* Pods-header_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-header_Tests.release.xcconfig"; path = "Target Support Files/Pods-header_Tests/Pods-header_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		EDD2DB72050BBC449B9DE3BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		EDD2DB72050BBC449B9DE3BF /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +98,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		06FEFCAC25ABFDE000622B7A /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			path = ../../header/Assets;
+			sourceTree = "<group>";
+		};
+		06FEFCAE25ABFDE000622B7A /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				06FEFCBC25ABFE1D00622B7A /* GQHMacro.h */,
+				06FEFCBB25ABFE1C00622B7A /* Macro_appConfig_shi.h */,
+				06FEFCBD25ABFE1D00622B7A /* Macro_shi.h */,
+			);
+			name = Classes;
+			path = ../../header/Classes;
+			sourceTree = "<group>";
+		};
 		6003F581195388D10070C39A = {
 			isa = PBXGroup;
 			children = (
@@ -132,6 +154,8 @@
 		6003F593195388D20070C39A /* Example for header */ = {
 			isa = PBXGroup;
 			children = (
+				06FEFCAC25ABFDE000622B7A /* Assets */,
+				06FEFCAE25ABFDE000622B7A /* Classes */,
 				6003F59C195388D20070C39A /* HJAppDelegate.h */,
 				6003F59D195388D20070C39A /* HJAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
@@ -193,7 +217,6 @@
 				29D9A078306ED6DE0EA49DA2 /* Pods-header_Tests.debug.xcconfig */,
 				CF6F54B402F05143D812D27F /* Pods-header_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +231,6 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				D9242D6F606A9FF541A5D6F7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -259,6 +281,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -356,24 +379,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-header_Tests/Pods-header_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		D9242D6F606A9FF541A5D6F7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-header_Example/Pods-header_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/header/header.framework",
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/header.framework",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-header_Example/Pods-header_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
